@@ -1,0 +1,10 @@
+"use strict";
+Object.defineProperty(exports, "__esModule", { value: true });
+exports.todosRoutes = void 0;
+var express_1 = require("express");
+var controllers_1 = require("../controllers");
+exports.todosRoutes = express_1.Router();
+exports.todosRoutes.get('/', controllers_1.todosGet);
+exports.todosRoutes.post('/', controllers_1.todosPost);
+exports.todosRoutes.patch('/:id', controllers_1.todosPatch);
+exports.todosRoutes.delete('/:id', controllers_1.todosDelete);

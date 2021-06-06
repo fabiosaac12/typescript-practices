@@ -1,0 +1,24 @@
+{
+  "name": "googlemaps",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "lite-server"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@types/faker": "^5.5.3",
+    "@types/googlemaps": "^3.43.3",
+    "faker": "^5.5.3",
+    "lite-server": "^2.6.1"
+  },
+  "devDependencies": {
+    "typescript": "^4.2.4"
+  },
+  "prettier": {
+    "singleQuote": true
+  }
+}
